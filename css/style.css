@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -8,7 +11,7 @@
 
 section{
     width: 100%;
-    height: 120vh;
+    height: 125vh;
     background-image: url(/images/Rectangle\ 20\ \(1\).png);
     background-size: cover;
 }
@@ -196,5 +199,239 @@ section .block .box-2{
     top: 300px;
 }
 
+/*  wrapper  */
 
+.wrapper{
+    /* position: absolute; */
+    width: 100%;
+    height: 140vh;
+    /* background: #3988FF */
+}
+.wrapper header{
+    position: relative;
+    top: 100px;
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper header h1{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #050C26;
+    margin-bottom: 20px;
+}
+.wrapper header p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #575859;
+}
+.wrapper .block{
+    display: flex;
+    position: relative;
+    left: 0;
+    top: 200px;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #575859; */
+}
+.wrapper .block .box{
+    width: 48%;
+    height: 100%;
+    /* background: chocolate; */
+}
+.wrapper .block .box img{
+    position: relative;
+    top: 32.5px;
+    width: 618px;
+    height: 435px;
+}
+.wrapper .block .box:last-child > div .percent{
+    display: flex;
+}
+.wrapper .block .box:last-child > div{
+    width: 80%;
+    height: 360px;
+    /* background: #3988FF; */
+    position: relative;
+    top: 70px;
+}
+.wrapper .block .box:last-child > div .percent h4{
+    color: #050C26;
+    font-family: 'Lato' , sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.wrapper .block .box:last-child > div .percent span{
+    color: #E41A1A;
+    font-family: 'Lato' , sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    left: 180px;
+}
+.wrapper .block .box:last-child > div .percent .one{
+    color: #DA5A12;
+    position: relative;
+    left: 210px;
+}
+.wrapper .block .box:last-child > div .percent .two{
+    color: #5BBB10;
+    position: relative;
+    left: 120px;
+}
+.wrapper .block .box:last-child > div .percent .three{
+    color: #15C1CC;
+    position: relative;
+    left: 120px;
+}
+.wrapper .block .box:last-child > div .width{
+    width: 90%;
+    height: 10px;
+    background: #fceeee;
+    border-radius: 20px;
+    position: relative;
+    left: 2px;
+    margin-bottom: 40px;   
+    
+}
+.wrapper .block .box:last-child > div .width .bg{
+    width: 70%;
+    height: 10px;
+    background: red;
+    border-radius: 20px;
+}
+.width .bg-1{
+    width: 85%;
+    height: 10px;
+    background: #DA5A12;
+    border-radius: 20px;
+}
+.width .bg-2{
+    width: 65%;
+    height: 10px;
+    background: #5BBB10;
+    border-radius: 20px;
+}
+.wrapper .block .box:last-child > div .width .bg-3{
+    width: 70%;
+    height: 10px;
+    background: #15C1CC;
+    border-radius: 20px;
+}
 
+/*  wrapper-1  */
+
+.wrapper-1{
+    /* position: absolute; */
+    width: 100%;
+    height: 120vh;
+    /* background: #1B45DA; */
+    left: 0;
+    top: 500px;
+}
+.wrapper-1 .temp{
+    position: relative;
+    top: 100px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper-1 .temp h2{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #050C26;
+    margin-bottom: 20px;
+}
+.wrapper-1 .temp p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #575859;
+}
+
+.wrapper-1 .block{
+    display: flex;
+    width: 80%;
+    height: 400px;
+    margin: 150px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper-1 .block .box{
+    width: 23%;
+    height: 370px;
+    background: #fff;
+    border: 2px solid rgba(5, 12, 38, 0.05);
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.wrapper-1 .block .box .circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 96, 96, 0.1);
+    margin: 25px auto;
+}
+.wrapper-1 .block .box:nth-child(2) .circle{
+    background: rgba(243, 83, 170, 0.1);
+}
+.wrapper-1 .block .box:nth-child(3) .circle{
+    background: rgba(197, 72, 255, 0.1);
+}
+.wrapper-1 .block .box:nth-child(4) .circle{
+    background: rgba(79, 158, 252, 0.1);
+}
+.wrapper-1 .block .box .circle img{
+    position: relative;
+    top: 25px;
+}
+.wrapper-1 .block .box h3{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #050C26; 
+    margin-bottom: 20px; 
+}
+.wrapper-1 .block .box p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #575859;
+    margin: auto 10px;
+}
+.wrapper-1 .block .box button{
+    padding: 15px 30px;
+    color: #ffffff;
+    background: #3988FF;
+    margin-top: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.wrapper-1 .block .box button:hover{
+    color: #3988FF;
+    background: none;
+    border: 2px solid #3988FF;
+}
