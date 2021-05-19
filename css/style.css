@@ -314,15 +314,15 @@ section .block .box-2{
 .wrapper .block .box:last-child > div .width .bg-3{
     width: 70%;
     height: 10px;
-    background: #15C1CC;
     border-radius: 20px;
+    background: #15C1CC;
 }
 
 /*  wrapper-1  */
 
 .wrapper-1{
     width: 100%;
-    height: 180vh;
+    height: 175vh;
     left: 0;
     top: 500px;
 }
@@ -448,4 +448,99 @@ section .block .box-2{
     font-size: 17px;
     color: #575859;
     line-height: 150%;
+}
+
+/*  wrapper-2 */
+.wrapper-2{
+    width: 100%;
+    height: 150vh;
+}
+.wrapper-2 .block{
+    width: 78%;
+    height: 65vh;
+    margin: 5vh auto;
+    justify-content: space-between;
+    display: flex;
+}
+.wrapper-2 .block .box{
+    width: 30%;
+    height: 65vh;
+    background: #020202;
+    border-radius: 10px;
+}
+.wrapper-2 .block .box div{
+    width: 235px;
+    height: 326px;
+    background: #f3f3f3;
+    margin: 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+.wrapper-2 .block .box div h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #050C26;
+    position: relative;
+    top: 50px;
+}
+.wrapper-2 .block .box div p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #575859;
+    line-height: 150%;
+    position: relative;
+    margin: 0 10px;
+    top: 65px;
+}
+.wrapper-2 .block .box:nth-child(2){
+    width: 30%;
+    height: 65vh;
+    background-image: url(../images/Rectangle\ 26.png);
+    border: none;
+}
+.wrapper-2 .block .box:nth-child(2) div{
+    width: 235px;
+    height: 326px;
+    background: linear-gradient(180deg, #D93059 0%, #D95B7A 100%);
+    z-index: 100;
+    margin: 40px;
+}
+.wrapper-2 .block .box:nth-child(2) div h2{
+    color: #ffffff;
+}
+.wrapper-2 .block .box:nth-child(2) div p{
+    color: #ffffff;
+}
+
+.wrapper-2 .block .box div .circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #ffffff;
+    position: relative;
+    top: 70px;
+    left: 35px;
+}
+.wrapper-2 .block .box div .circle i{
+    line-height: 80px;
+    font-size: 24px;
+}
+
+.wrapper-2 .block:nth-child(2) .box:nth-child(2){
+    background: #020202;
+}
+.wrapper-2 .block:nth-child(2) .box:nth-child(2) div{
+    background: #f3f3f3;
+}
+.wrapper-2 .block:nth-child(2) .box:nth-child(2) div h2{
+    color: #050C26;
+}.wrapper-2 .block:nth-child(2) .box:nth-child(2) div p{
+    color: #050C26;
+}
+.wrapper-2 .block:nth-child(2) .box:nth-child(2) div .circle{
+    background: #ffffff;
 }
