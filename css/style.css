@@ -31,9 +31,7 @@ header nav .logo h1{
     font-weight: 900;
     font-size: 25px;
     line-height: 150%;
-    /* identical to box height, or 37px */
     letter-spacing: 0.05em;
-    /* Primary Black */
     color: #050C26;
 }
 header nav ul{
@@ -52,7 +50,6 @@ header nav ul li{
     font-size: 18px;
     line-height: 160%;
     letter-spacing: 0.11rem;
-    /* identical to box height, or 29px */
     text-transform: capitalize;
     color: #575859;
     margin-left: 49px;
@@ -95,7 +92,6 @@ section .block{
 .block .box-1 .target{
     width: 510px;
     height: 200px;
-    /* background-color: #3988FF; */
     margin-left: 130px;
     margin-top: 170px;
 }
@@ -121,7 +117,6 @@ section .block{
 .block .box-1 .target-1{
     width: 490px;
     height: 80px;
-    /* background-color: #3988FF; */
     margin-top: 30px;
     margin-left: 130px;
 }
@@ -131,7 +126,6 @@ section .block{
     font-weight: normal;
     font-size: 18px;
     line-height: 160%;
-    /* or 29px */
     color: #575859;
 }
 
@@ -163,7 +157,6 @@ section .block{
 section .block .box-2{
     width: 50%;
     height: 80%;
-    /* background-color: rgb(42, 50, 165); */
     margin-top: 170px;
 }
 .block .box-2 img{
@@ -202,10 +195,8 @@ section .block .box-2{
 /*  wrapper  */
 
 .wrapper{
-    /* position: absolute; */
     width: 100%;
     height: 140vh;
-    /* background: #3988FF */
 }
 .wrapper header{
     position: relative;
@@ -240,12 +231,10 @@ section .block .box-2{
     height: 500px;
     align-items: center;
     justify-content: space-between;
-    /* background-color: #575859; */
 }
 .wrapper .block .box{
     width: 48%;
     height: 100%;
-    /* background: chocolate; */
 }
 .wrapper .block .box img{
     position: relative;
@@ -259,7 +248,6 @@ section .block .box-2{
 .wrapper .block .box:last-child > div{
     width: 80%;
     height: 360px;
-    /* background: #3988FF; */
     position: relative;
     top: 70px;
 }
@@ -333,10 +321,8 @@ section .block .box-2{
 /*  wrapper-1  */
 
 .wrapper-1{
-    /* position: absolute; */
     width: 100%;
-    height: 120vh;
-    /* background: #1B45DA; */
+    height: 180vh;
     left: 0;
     top: 500px;
 }
@@ -434,4 +420,32 @@ section .block .box-2{
     color: #3988FF;
     background: none;
     border: 2px solid #3988FF;
+}
+
+.h1-left{
+    width: 400px;
+    position: relative;
+    left: 140px;
+    top: 0;
+}
+.h1-left h1{
+    font-family: 'Lato' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    color: #050C26;
+}
+.p-left{
+    width: 570px;
+    position: relative;
+    left: 140px;
+    top: 20px;
+}
+.p-left p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: #575859;
+    line-height: 150%;
 }
