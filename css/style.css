@@ -710,3 +710,114 @@ section .block .box-2{
     color: #ffffff;
     background: #3988FF;
 }
+
+/*  wrapper-4 page */
+.wrapper-4{
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    /* background: #15C1CC; */
+}
+.wrapper-4 .title-center{
+    width: 60%;
+    height: 200px;
+    margin: 60px auto;
+    text-align: center;
+    /* background: #ebeff3; */
+}
+.title-center h1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 140%;
+    color: #050C26;
+    margin-top: 20px;
+}
+.title-center p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #575859;
+    margin-top: 20px;
+}
+.wrapper-4 .container-image{
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+    border: 1px solid #050C26;
+    border-radius: 10px;
+    transform: translateY(-50px);
+    background-image: url(../images/Group\ 388.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper-4 .container-image .box{
+    width: 480px;
+    height: 230px;
+}
+.wrapper-4 .container-image .box img{
+    position: relative;
+    top: 0;
+    left: 50px;
+}
+.wrapper-4 .container-image .box p{
+    position: relative;
+    top: -22px;
+    left: 100px;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #050C26;
+}
+.wrapper-4 .container-image .box > div{
+    display: flex;
+}
+.wrapper-4 .container-image .box > div  div{
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+.wrapper-4 .container-image .box > div  div h4,h5{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: #050C26;
+}
+.wrapper-4 .container-image .box > div  div h5{
+    font-size: 16px;
+    color: #575859;
+}
+
+.wrapper-4 .container-image .block{
+    width: 12%;
+    height: 30px;
+    position: absolute;
+    top: 290px;
+    left: 480px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.wrapper-4 .container-image .block .style{
+    width: 50px;
+    height: 15px;
+    background: #3988FF;
+    border-radius: 20px;
+}
+.wrapper-4 .container-image .block .style:nth-child(2){
+    width: 25px;
+    opacity: .1;
+}
+.wrapper-4 .container-image .block .style:nth-child(3){
+    width: 25px;
+    opacity: .1;
+}
+
